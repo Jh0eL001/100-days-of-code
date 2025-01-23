@@ -26,6 +26,7 @@ try:
     add_extra_cheese = input("Do you want extra cheese? Y or N: ")
 
     total_bill = calculate_bill(size, add_pepperoni, add_extra_cheese)
-    print(f"Your {PIZZA_NAME[size]} cost is: ${total_bill}.")
+    # if you are cool use this one: print(f"Your {PIZZA_NAME[size]} cost is: ${total_bill}.")
+    print(f"Your final bill is: ${total_bill}.")
 except ValueError as e:
     print(e)
